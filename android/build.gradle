@@ -28,10 +28,10 @@ android {
     if (project.android.hasProperty("namespace")) {
         namespace 'vn.hunghd.flutter.plugins.imagecropper'
     }
-    compileSdkVersion 35
+    compileSdkVersion 34
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
